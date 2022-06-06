@@ -1,0 +1,15 @@
+name: "gdptools-ex"
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9,<3.10
+  - poetry
+  - pip
+  - jupyterlab
+  - nodejs
+  - hvplot
+  - geoviews
+  - cartopy
+  - "holoviews[recommended]"
+  - pip:
+      - gdptools

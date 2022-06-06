@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gdptools-examples"
+version = "0.0.1"
+description = "Project contains examples of using gdptools for aggragation of gridded data to feature polygons"
+authors = ["Richard McDonald <rmcd@usgs.gov>"]
+
+[tool.poetry.dependencies]
+python = "<3.10,>=3.9"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.19.0"
+pre-commit-hooks = "^4.2.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+reorder-python-imports = "^3.1.0"
+nbstripout = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
